@@ -44,7 +44,7 @@ export default function FollowButton() {
           width: "115px",
           borderRadius: "5px",
         }}>
-        <Button variant="contained" color="error" onClick={handleUnfollow}>Unfollow</Button>
+        <Button variant="contained" color="error" onClick={handleUnfollow} sx={{fontFamily: "pt serif"}}>Unfollow</Button>
         </Grid>
       ) : (
         <Grid sx={{
@@ -52,7 +52,7 @@ export default function FollowButton() {
           width: "94px",
           borderRadius: "5px",
         }}>
-        <Button variant="contained" color="success" onClick={handleFollow}>Follow</Button>
+        <Button variant="contained" color="success" onClick={handleFollow} sx={{fontFamily: "pt serif"}}>Follow</Button>
         </Grid>
       )}
     </div>

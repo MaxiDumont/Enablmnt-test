@@ -27,6 +27,7 @@ export default function Home() {
         <Link href="/users/1">
           <Button variant="contained" color="success" sx={{
             width: "300px",
+            fontFamily: "pt serif"
           }}>Go to the first user</Button>
         </Link>
       </Grid>

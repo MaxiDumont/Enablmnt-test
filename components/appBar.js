@@ -86,13 +86,13 @@ function ResponsiveAppBar() {
             >
               <Link href="/users/1">
                 <MenuItem onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">Other users</Typography>
+                  <Typography textAlign="center" sx={{fontFamily: "pt serif"}}>Other users</Typography>
                 </MenuItem>
               </Link>
 
               <Link href="/">
                 <MenuItem onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">Dashboard</Typography>
+                  <Typography textAlign="center" sx={{fontFamily: "pt serif"}}>Dashboard</Typography>
                 </MenuItem>
               </Link>
 

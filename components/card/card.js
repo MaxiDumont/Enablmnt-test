@@ -3,6 +3,7 @@ import * as React from "react";
 import Image from "next/image";
 import Grid from "@mui/material/Grid";
 import "./style.css";
+import { Typography } from "@mui/material";
 
 export default function Card(photo) {
 
@@ -52,7 +53,12 @@ export default function Card(photo) {
             }}
           >
             <div className="inner color-black">
-              <p>{photo.photo.title}</p>
+              <Typography sx={{
+                color: "black",
+                fontFamily: "pt serif",
+              }}>
+                {photo.photo.title}
+              </Typography>
             </div>
           </div>
         </Grid>

@@ -109,6 +109,7 @@ export default function UserPage() {
             mb: "20px",
             fontWeight: "700",
             fontSize: "30px",
+            fontFamily: "pt serif"
           }}
           variant="h1"
         >
@@ -171,6 +172,7 @@ export default function UserPage() {
               <Typography
                 sx={{
                   color: "#F9EDE0",
+                  fontFamily: "pt serif",
                 }}
                 variant="h2"
               >
@@ -179,6 +181,7 @@ export default function UserPage() {
               <Typography
                 sx={{
                   color: "#F9EDE0",
+                  fontFamily: "pt serif",
                 }}
                 variant="h1"
               >
@@ -186,11 +189,18 @@ export default function UserPage() {
               </Typography>
               <FollowButton />
             </Grid>
-            <Grid item xs={10}>
+            <Grid item xs={10} sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+
+            }}>
               <Typography
                 sx={{
                   color: "#F9EDE0",
-                  ml: 25,
+                  fontFamily: "pt serif",
+                  ml: 20,
+                  mt: 2,
                 }}
                 variant="h9"
               >
@@ -202,13 +212,19 @@ export default function UserPage() {
         </Grid>
       )}
 
-      <Grid>
+      <Grid sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}>
         <Typography
           sx={{
             color: "#350010",
-            ml: 67,
-            mt: 5,
-            fontWeight: "700",
+            fontWeight: "400",
+            mt: 2,
+            mb: 2,
+            //font pt serif
+            fontFamily: "pt serif",
           }}
           variant="h3"
         >
@@ -260,6 +276,7 @@ export default function UserPage() {
             fontWeight: "400",
             position: "relative",
             top: "20%",
+            fontFamily: "pt serif"
           }}
           variant="h9"
         >
